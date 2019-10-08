@@ -70,6 +70,7 @@
     <Content Include="bussena.aspx" />
     <Content Include="Candidatop1.aspx" />
     <Content Include="Confirmarpld.aspx" />
+    <Content Include="consen1.aspx" />
     <Content Include="Presidentepld.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="Confirmarpld.aspx.designer.cs">
       <DependentUpon>Confirmarpld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consen1.aspx.cs">
+      <DependentUpon>consen1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consen1.aspx.designer.cs">
+      <DependentUpon>consen1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presidentepld.aspx.cs">
       <DependentUpon>Presidentepld.aspx</DependentUpon>
