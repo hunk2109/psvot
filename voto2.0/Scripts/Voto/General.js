@@ -1,0 +1,1 @@
+﻿function Back() { history.back(1) } $(document).ready(function () { setInterval(function () { var e = document.getElementById("blink"); "luz" == e.className ? e.className = "luz on" : e.className = "luz" }, 500), setInterval(function () { var e = document.getElementsByClassName("blinkRetroceder"); "luz" == e.className ? e.className = "luz on" : e.className = "luz" }, 500) });

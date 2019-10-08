@@ -1,0 +1,506 @@
+@media print {
+    body {
+        margin: 0;
+        font-family: "Segoe UI","Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 0.5 !important;
+        color: #000 !important;
+        text-align: left;
+        background-color: #fff;
+        padding-top: 4%
+    }
+    .borderless tr, .borderless td, .borderless th {
+        border: none !important;
+    }
+    .Bordes {
+        border: 1px solid;
+        width: 100%;
+        border-radius: 15px
+    }
+
+    .izquierdaTh {
+        float: left
+    }
+
+    .derechaLogo {
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 1%
+    }
+
+    .logo {
+        display: inline-block;
+        width: 7%
+    }
+
+    .Encabezado {
+        margin: 0 auto
+    }
+
+    .centralizado {
+        text-align: center
+    }
+
+    .negrita {
+        font-weight: 700;
+        color: #000
+    }
+
+    .cargo {
+        width: 150%;
+        height: 150%
+    }
+
+    .col-print-6 {
+        position: relative;
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 8px;
+        font-size: 25%
+    }
+
+    .col-print-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        font-size: 25%
+    }
+
+    .tipoEleccion {
+        display: none
+    }
+
+    .table td, table th {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+        width: 26%;
+        text-align: right;
+        color: #000
+    }
+
+    thead tr th {
+        width: 26%;
+        text-align: center;
+        margin: 0;
+        margin-right: 70%;
+        padding: 0;
+        float: unset;
+        font-size: 100%
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #000
+    }
+
+    .tr {
+        background-color: #1b508c !important;
+        color: #000 !important;
+        font-weight: 700;
+        font-size: 24px
+    }
+
+    .th {
+        font-size: 12px
+    }
+
+    .junta {
+        color: #520;
+        font-weight: 700
+    }
+
+    .col-print-8 {
+        width: 100%;
+        float: left
+    }
+
+    .capitalize {
+        text-transform: capitalize
+    }
+
+    .col-print-9 {
+        width: 100%;
+        float: left
+    }
+
+    .col-print-10 {
+        width: 100%;
+        float: left
+    }
+
+    .col-print-11 {
+        width: 100%;
+        float: left
+    }
+
+    .col-print-12 {
+        width: 100%;
+        float: left
+    }
+
+    .Grupo {
+        background-color: #dee2e6 !important
+    }
+
+    BordesReporte {
+        border: 3px solid;
+        width: 100%
+    }
+
+    .divImagen {
+        overflow: hidden;
+        text-align: left
+    }
+
+        .divImagen img {
+            width: 16%;
+            text-align: right;
+            margin: 0;
+            margin-right: 70%;
+            margin-top: 1.5%;
+            padding: 0;
+            float: right
+        }
+
+    .imageLogo {
+        overflow: hidden
+    }
+
+        .imageLogo img {
+            margin: 0;
+            margin-right: 3%;
+            padding: 0;
+            float: left;
+            width: 35%
+        }
+
+    @page {
+        margin: 0
+    }
+
+    .tipoEleccion {
+        display: none
+    }
+
+    .lineHeight {
+        line-height: 2
+    }
+}
+
+@media screen {
+    .Bordes {
+        border: 1px solid;
+        width: 100%;
+        border-radius: 15px
+    }
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI","Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+        font-size: .9375rem;
+        font-weight: 400;
+        line-height: 1 !important;
+        color: #000 !important;
+        text-align: left;
+        background-color: #fff
+    }
+
+    .glow {
+        color: #000;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate
+    }
+
+        .glow:hover {
+            color: #000;
+            text-align: center;
+            -webkit-animation: glowHover 1s ease-in-out infinite alternate;
+            -moz-animation: glowHover 1s ease-in-out infinite alternate;
+            animation: glowHover 1s ease-in-out infinite alternate
+        }
+
+    @-webkit-keyframes glow {
+        from {
+            color: #000
+        }
+
+        to {
+            color: #6495ed
+        }
+    }
+
+    @-webkit-keyframes glowHover {
+        from {
+            color: #fff
+        }
+
+        to {
+            color: #000
+        }
+    }
+
+    ​ ​ .logo {
+        width: 25% !important
+    }
+
+    .tipoEleccion {
+        display: none
+    }
+
+    .BorderBody {
+        border: 1px solid;
+        width: 200%
+    }
+
+    .negrita {
+        font-weight: 700;
+        color: #000
+    }
+
+    .centralizado {
+        text-align: center
+    }
+
+    .cargo {
+        width: 150%;
+        height: 150%
+    }
+
+    BordesReporte {
+        border: 3px solid;
+        width: 100%
+    }
+
+    .tipoEleccion {
+        display: none
+    }
+
+    .Grupo {
+        background-color: #dee2e6 !important
+    }
+
+    .nav {
+        display: none
+    }
+
+    .izquierda {
+        text-align: left
+    }
+
+    .izquierdaTh {
+        float: left
+    }
+
+    .derechaLogo {
+        text-align: center;
+        margin-top: 1%
+    }
+
+    .tr {
+        background-color: #1b508c !important;
+        color: #fff !important;
+        font-weight: 700;
+        font-size: 22px;
+        overflow: hidden;
+        text-align: left
+    }
+
+    thead tr th {
+        width: 16%;
+        text-align: center;
+        margin: 0;
+        margin-right: 70%;
+        padding: 0;
+        float: unset;
+        color: #fecf7f;
+        font-weight: 700
+    }
+
+    .capitalize {
+        text-transform: capitalize
+    }
+
+    .imageLogo {
+        overflow: hidden
+    }
+
+        .imageLogo img {
+            margin: 0;
+            margin-right: 3%;
+            padding: 0;
+            float: left;
+            width: 30%
+        }
+
+    .col-md-6 {
+        position: relative;
+        width: 100%;
+        padding-right: 155px;
+        padding-left: 9px
+    }
+
+    .lineHeight {
+        line-height: 2
+    }
+
+    .table td, table th {
+        padding: .75rem;
+        vertical-align: top;
+        width: 14%;
+        text-align: right;
+        color: #000;
+        border-top: 0px ;
+        
+    }
+    .borderless tr, .borderless td, .borderless th {
+        border: none !important;
+    }
+    .btn-primary {
+        color: #1d1e1f;
+        background-color: #f8f9fa;
+        border-color: rgba(39,128,227,.25);
+        font-weight: 700
+    }
+
+    .junta {
+        color: #520;
+        font-weight: 700
+    }
+
+    .noVota {
+        margin-top: 8px
+    }
+
+    .divImagen {
+        overflow: hidden;
+        text-align: left
+    }
+
+        .divImagen img {
+            width: 16%;
+            text-align: right;
+            margin: 0;
+            margin-right: 70%;
+            margin-top: -4%;
+            padding: 0;
+            float: right
+        }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    .leftArrow {
+        background-image: url("../fonts/go-back-left-arrow.png");
+        background-repeat: no-repeat
+    }
+}
+
+@media screen and (min-width:768px) {
+    .derecha {
+        text-align: right
+    }
+
+    .derechaLogo {
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 1%
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .imageLogo {
+        overflow: hidden
+    }
+
+        .imageLogo img {
+            margin: 0;
+            margin-right: 3%;
+            padding: 0;
+            float: left;
+            width: 100%
+        }
+
+    .divImagen img {
+        width: 46%;
+        text-align: right;
+        margin: 0;
+        float: right
+    }
+}
+
+@media screen and (min-device-width:360px) and (max-device-width:640px) {
+    .imageLogo {
+        overflow: hidden
+    }
+
+        .imageLogo img {
+            margin: 0;
+            margin-right: 3%;
+            padding: 0;
+            float: left;
+            width: 100%
+        }
+
+    .divImagen img {
+        width: 60%;
+        text-align: right;
+        margin: 0;
+        float: right
+    }
+}
+
+@media screen and (device-aspect-ratio:40/71) {
+    .imageLogo {
+        overflow: hidden
+    }
+
+        .imageLogo img {
+            margin: 0;
+            margin-right: 3%;
+            padding: 0;
+            float: left;
+            width: 100%
+        }
+
+    .btn-primary {
+        color: #1d1e1f;
+        background-color: #f8f9fa;
+        border-color: rgba(39,128,227,.25);
+        font-weight: initial !important
+    }
+
+    .divImagen img {
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        float: right
+    }
+
+    .derecha {
+        text-align: right
+    }
+
+    .derechaLogo {
+        text-align: center;
+        margin-top: 1%
+    }
+}
+
+@media screen and (device-width:360px) and (device-height:640px) and (-webkit-device-pixel-ratio:3) {
+    .derechaLogo {
+        text-align: center;
+        margin-top: 1%
+    }
+}
+
+.logo {
+    width: 25% !important
+}
