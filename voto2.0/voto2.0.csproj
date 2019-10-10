@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="busdip.aspx" />
     <Content Include="bussena.aspx" />
     <Content Include="Candidatop1.aspx" />
     <Content Include="Confirmarpld.aspx" />
@@ -76,6 +77,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="busdip.aspx.cs">
+      <DependentUpon>busdip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="busdip.aspx.designer.cs">
+      <DependentUpon>busdip.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bussena.aspx.cs">
       <DependentUpon>bussena.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

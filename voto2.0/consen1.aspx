@@ -58,13 +58,13 @@
                             <h5 class="negrita margin CentralTexto">TOQUE NUEVAMENTE EL                  RECUADRO PARA CONFIRMAR</h5>
                         </div>
                     </div>
-                    <a class="col-md-3 btn btn-success colorblack" href="Buscar-DIPUTADO-PLD.html" style="border-radius: 0px">
+                    <a class="col-md-3 btn btn-success colorblack" href="busdip.aspx" style="border-radius: 0px">
                         <h3 id="blink" class="BotonesFont negrita blick">CONTINUAR</h3>
                     </a></div>
             </div>
             <br>
             <div class="row">
-                <div class="col-md-12"><a href="Buscar-DIPUTADO-PLD.html">
+                <div class="col-md-12"><a href="busdip.aspx">
                     <div class="d-flex justify-content-center bd-highlight mb-3">
                         <div class="p-2 bd-highlight imagenConfirmar" style="border: solid; border-width: 1px; margin-bottom: 5%; padding: 0px !important; margin: 0px">
                             <div style="display: flex; justify-content: flex-end;">
