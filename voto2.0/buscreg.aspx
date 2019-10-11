@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="busdip.aspx.cs" Inherits="voto2._0.busdip" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="buscreg.aspx.cs" Inherits="voto2._0.buscreg" %>
 
 <!DOCTYPE html>
 <html>
@@ -41,13 +41,13 @@
                                 <img src="fonts/PLD_%28Dominican_Republic%29_logo.png" alt="Lights" class="img img-thumbnail margin-left" id="imgPartido" style="width: 100%; height: 100%;">
                             </div>
                             <div class="centrado CabezeraCentrada" style="width: 80%;">
-                                <h6 id="Nivel" class="hTituloNivel">Nivel: Congresional</h6>
-                                <h2 class="parpadea text heid">DIPUTADO(A)</h2>
+                                <h6 id="Nivel" class="hTituloNivel">Nivel: Municipal</h6>
+                                <h2 class="parpadea text heid">REGIDOR(A)</h2>
                                 <h6 class="parpadea text" style="font-size: 12px; margin: 0%;">TOQUE
                     EL RECUADRO DE SU PREFERENCIA</h6>
                             </div>
                             <div class="derecha" style="padding: 0px; margin: 0px; width: 10%; justify-content: flex-end; flex-direction: row;">
-                                <img src="data:image/png;base64,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" alt="Lights" class="img img-thumbnail margin-right" id="imgCargo" style="width: 100%; height: 100%;">
+                                <img src="data:image/png;base64,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" alt="Lights" class="img img-thumbnail margin-right" id="imgCargo" style="width: 100%; height: 100%;">
                             </div>
                         </div>
                     </div>
@@ -65,14 +65,14 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/4.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/20.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           1 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
@@ -86,61 +86,52 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/5.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/21.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           2 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR (A)</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="condip3.aspx">
-                                    <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
-                                        <div style="display: flex; justify-content: flex-end;">
-                                            <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
-                                                <p class="posicion" style="">3</p>
-                                            </div>
-                                        </div>
-                                        <div class="ml-6">
-                                            <img src="fonts/6.jpeg" alt="Lights" class="img-thumbnail" style="border: 0px;">
-                                        </div>
-                                        <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
-                                            <p class="candidato" style="margin-bottom: 1%;">
-                                                HILDA GENAO
-                                            </p>
-                                            <p class="candidato2">DIPUTADA</p>
+                            <div class="col-md-2" id="tripleCandidato" style="width: 33%"><a href="Confirmar-PROFESORJOSEESTEVEZ-PLD.html">
+                                <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
+                                    <div style="display: flex; justify-content: flex-end;">
+                                        <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
+                                            <p class="posicion" style="">3</p>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                    <div class="ml-6">
+                                        <img src="fonts/PROFESORJOSEESTEVEZ.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                    </div>
+                                    <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
+                                        <p class="candidato" style="margin-bottom: 1%;">PROFESOR                          JOSE ESTEVEZ</p>
+                                        <p class="candidato2">REGIDOR</p>
+                                    </div>
+                                </div>
+                            </a></div>
+                            <div class="col-md-2" id="tripleCandidato" style="width: 33%"><a href="Confirmar-DRESTEVEZ-PLD.html">
+                                <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
+                                    <div style="display: flex; justify-content: flex-end;">
+                                        <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
+                                            <p class="posicion" style="">4</p>
+                                        </div>
+                                    </div>
+                                    <div class="ml-6">
+                                        <img src="fonts/DRESTEVEZ.JPG" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                    </div>
+                                    <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
+                                        <p class="candidato" style="margin-bottom: 1%;">DR.                          ESTEVEZ (CHURY)</p>
+                                        <p class="candidato2">REGIDOR</p>
+                                    </div>
+                                </div>
+                            </a></div>
                             <div class="col-md-2" id="tripleCandidato" style="width: 33%">
                                 <a href="#">
-                                    <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
-                                        <div style="display: flex; justify-content: flex-end;">
-                                            <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
-                                                <p class="posicion" style="">4</p>
-                                            </div>
-                                        </div>
-                                        <div class="ml-6">
-                                            <img src="fonts/7.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
-                                        </div>
-                                        <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
-                                            <p class="candidato" style="margin-bottom: 1%;">
-                                                CANDIDATO
-                          4 A
-                                            </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="Confirmar-BENEDICTOHERNANDEZ-PLD.html">
                                     <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
                                         <div style="display: flex; justify-content: flex-end;">
                                             <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
@@ -148,39 +139,34 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/BENEDICTOHERNANDEZ.JPG" alt="Lights" class="img-thumbnail" style="border: 0px;">
-                                        </div>
-                                        <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
-                                            <p class="candidato" style="margin-bottom: 1%;">
-                                                BENEDICTO
-                          HERNANDEZ
-                                            </p>
-                                            <p class="candidato2">DIPUTADO</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="#">
-                                    <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
-                                        <div style="display: flex; justify-content: flex-end;">
-                                            <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
-                                                <p class="posicion" style="">6</p>
-                                            </div>
-                                        </div>
-                                        <div class="ml-6">
-                                            <img src="fonts/8.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/22.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
-                          6 A
+                          5 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
+                            <div class="col-md-2" id="tripleCandidato" style="width: 33%"><a href="Confirmar-JOSEGARCIA-PLD.html">
+                                <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
+                                    <div style="display: flex; justify-content: flex-end;">
+                                        <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
+                                            <p class="posicion" style="">6</p>
+                                        </div>
+                                    </div>
+                                    <div class="ml-6">
+                                        <img src="fonts/JOSEGARCIA.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                    </div>
+                                    <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
+                                        <p class="candidato" style="margin-bottom: 1%;">JOSE                          GARCIA</p>
+                                        <p class="candidato2">REGIDOR</p>
+                                    </div>
+                                </div>
+                            </a></div>
                             <div class="col-md-2" id="tripleCandidato" style="width: 33%">
                                 <a href="#">
                                     <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
@@ -190,14 +176,14 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/9.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/23.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           7 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
@@ -211,41 +197,36 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/10.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/24.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           8 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="#">
-                                    <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
-                                        <div style="display: flex; justify-content: flex-end;">
-                                            <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
-                                                <p class="posicion" style="">9</p>
-                                            </div>
-                                        </div>
-                                        <div class="ml-6">
-                                            <img src="fonts/11.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
-                                        </div>
-                                        <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
-                                            <p class="candidato" style="margin-bottom: 1%;">
-                                                CANDIDATO
-                          9 A
-                                            </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                            <div class="col-md-2" id="tripleCandidato" style="width: 33%"><a href="conreg6.aspx">
+                                <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
+                                    <div style="display: flex; justify-content: flex-end;">
+                                        <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
+                                            <p class="posicion" style="">9</p>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                    <div class="ml-6">
+                                        <img src="fonts/PABLOYOWEL.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                    </div>
+                                    <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
+                                        <p class="candidato" style="margin-bottom: 1%;">PABLO                          RODRIGUEZ (YUE)</p>
+                                        <p class="candidato2">REGIDOR</p>
+                                    </div>
+                                </div>
+                            </a></div>
                             <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="#">
+                                <a href="Confirmar-EVELIN.html">
                                     <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
                                         <div style="display: flex; justify-content: flex-end;">
                                             <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
@@ -253,14 +234,13 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/12.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/25.jpeg" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
-                                                CANDIDATO
-                          10 A
+                                                EVELIN RODRIGUEZ
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
@@ -274,39 +254,34 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/13.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/26.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           11 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2" id="tripleCandidato" style="width: 33%">
-                                <a href="#">
-                                    <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
-                                        <div style="display: flex; justify-content: flex-end;">
-                                            <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
-                                                <p class="posicion" style="">12</p>
-                                            </div>
-                                        </div>
-                                        <div class="ml-6">
-                                            <img src="fonts/14.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
-                                        </div>
-                                        <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
-                                            <p class="candidato" style="margin-bottom: 1%;">
-                                                CANDIDATO
-                          12 A
-                                            </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                            <div class="col-md-2" id="tripleCandidato" style="width: 33%"><a href="Confirmar-ANAGABY-PLD.html">
+                                <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
+                                    <div style="display: flex; justify-content: flex-end;">
+                                        <div class="ml-auto p-2 bd-highlight PosicionCandidato" style="width: 16%; padding: 0 !important; height: 14% !important;">
+                                            <p class="posicion" style="">12</p>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                    <div class="ml-6">
+                                        <img src="fonts/ANAGABYTORRES.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                    </div>
+                                    <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
+                                        <p class="candidato" style="margin-bottom: 1%;">ANA GABY                          TORRES</p>
+                                        <p class="candidato2">REGIDORA</p>
+                                    </div>
+                                </div>
+                            </a></div>
                             <div class="col-md-2" id="tripleCandidato" style="width: 33%">
                                 <a href="#">
                                     <div class="col-xs-12" style="border: solid; border-width: 1px; margin-bottom: 5%;">
@@ -316,14 +291,14 @@
                                             </div>
                                         </div>
                                         <div class="ml-6">
-                                            <img src="fonts/15.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
+                                            <img src="fonts/27.png" alt="Lights" class="img-thumbnail" style="border: 0px;">
                                         </div>
                                         <div class="ml-6" style="text-align: center; overflow: hidden; font-size: x-small; font-weight: bold; padding-top: 1%">
                                             <p class="candidato" style="margin-bottom: 1%;">
                                                 CANDIDATO
                           13 A
                                             </p>
-                                            <p class="candidato2">DIPUTADO(A)</p>
+                                            <p class="candidato2">REGIDOR(A)</p>
                                         </div>
                                     </div>
                                 </a>

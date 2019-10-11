@@ -67,16 +67,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="buscaalc.aspx" />
+    <Content Include="buscreg.aspx" />
     <Content Include="busdip.aspx" />
     <Content Include="bussena.aspx" />
     <Content Include="Candidatop1.aspx" />
+    <Content Include="condip3.aspx" />
+    <Content Include="Confalc1.aspx" />
     <Content Include="Confirmarpld.aspx" />
+    <Content Include="conreg6.aspx" />
     <Content Include="consen1.aspx" />
     <Content Include="Presidentepld.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="buscaalc.aspx.cs">
+      <DependentUpon>buscaalc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscaalc.aspx.designer.cs">
+      <DependentUpon>buscaalc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="buscreg.aspx.cs">
+      <DependentUpon>buscreg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="buscreg.aspx.designer.cs">
+      <DependentUpon>buscreg.aspx</DependentUpon>
+    </Compile>
     <Compile Include="busdip.aspx.cs">
       <DependentUpon>busdip.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -98,12 +117,33 @@
     <Compile Include="Candidatop1.aspx.designer.cs">
       <DependentUpon>Candidatop1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="condip3.aspx.cs">
+      <DependentUpon>condip3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="condip3.aspx.designer.cs">
+      <DependentUpon>condip3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confalc1.aspx.cs">
+      <DependentUpon>Confalc1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confalc1.aspx.designer.cs">
+      <DependentUpon>Confalc1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Confirmarpld.aspx.cs">
       <DependentUpon>Confirmarpld.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Confirmarpld.aspx.designer.cs">
       <DependentUpon>Confirmarpld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="conreg6.aspx.cs">
+      <DependentUpon>conreg6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="conreg6.aspx.designer.cs">
+      <DependentUpon>conreg6.aspx</DependentUpon>
     </Compile>
     <Compile Include="consen1.aspx.cs">
       <DependentUpon>consen1.aspx</DependentUpon>
